@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(16, 160, 126);
+   
+}
+h3{
+    user-select: none;
+    border-radius: 8px;
+margin-block-start: 3em;
+margin-left: 17em;
+   
+    color: white;
+    background-color: rgb(84, 77, 77);
+ text-align: center;
+    width: 453px;
+    height: 23px;
+}
+ul{
+  user-select: none;
+    position: relative;
+    width: 470px;
+    margin: 2px auto 0;
+   
+    box-sizing: border-box;
+}
+li { 
+   margin: 5px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+    border-radius: 7px;
+    
+    display: flex;
+    padding: 7px 8px;
+
+    color: black;
+
+}
+.red{
+    background-color:rgba(236, 68, 68, 0.898);
+}
+.white{
+    background-color: rgb(255, 255, 255);
+}
+ul button{
+padding: 2px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(247, 40, 40);
+    
+}
+ul li:hover{
+    transform: scale(1.06);
+    transition: 0.4 ease;
+
+}
+button.edit{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(141, 88, 255);
+    width: 40px;
+}
+button.delete{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 70px;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.581);
+    color: rgb(43, 40, 40);
+ 
+}
+.add{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(70, 230, 70);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 4px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    user-select: none;
+} 
+button.add:hover{
+   
+    transform: scale(1.06);
+
+}
+button.add:active{
+    cursor: progress;
+      background-color: rgb(30, 204, 30);
+}
+button.delete:hover{
+    transform: scale(1.06);
+    background-color: rgb(244, 4, 4);
+    width: 75px;
+}
+button.edit:hover{
+    background-color: rgb(132, 0, 255);
+    transform: scale(1.06);
+}
+input{
+     border: none;
+     outline: none;
+    margin: 1px;
+  
+    border-radius: 4em;
+    margin-left:10px ;
+   
+    width: 25em;
+    padding-left: 18px;
+    
+}
+.input{
+    
+  display: flex;
+  justify-content: space-between;
+    background-color: rgb(230, 79, 79);
+    width: 478px;
+    height: 35px;
+    border-radius: 9px;
+    margin-left: 310px;
+    margin-top: 5px;
+
+}.input:hover{
+    transform: scale(1.06);
+}
+placeholder{
+    color: blueviolet;
+}
